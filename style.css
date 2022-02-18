@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Ubuntu+Mono:ital@0;1&display=swap');
+
+body{
+    font-family: 'Dancing Script', cursive;
+    background-color: black;
+    margin: 0;
+}
+#nav{
+    background-color: #312e81;
+    opacity: 0.9;
+    margin: 0;
+    padding: 0.5rem;
+}
+
+nav ul{
+    padding: 0;
+    margin: 0;
+}
+#menu li{
+    display: inline;    
+    margin: 1rem;
+}
+
+#menu a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.home img{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    opacity: 0.3;
+}
+
+.home h1{
+    position: absolute;
+    text-align: center;
+    top: 50vh;
+    left: 40vw;
+}
+
+.homeText{
+    color: white;
+    font-size: 3rem;  
+}
+
+section{
+    padding: 1rem;
+    color: black;
+    letter-spacing: 0.2rem;
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+section h2{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: white;
+}
+
+#like-button{
+    text-align: center;
+}
+
+section button{
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    color: blueviolet;
+    box-shadow: 3px 3px 8px rgb(168, 163, 163);
+    font-size: 1rem;
+    border: transparent;
+    margin: 2rem;
+}
+
+section button:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    color: red;
+}
+
+section p{
+    background-image: linear-gradient(#581c87, 
+    #ef4444);
+    border-radius: 0.5rem;
+    padding: 1rem 0.5rem;
+    box-shadow: 10px 10px 10px #37373f;
+    width: 80vw;
+    margin: auto;
+    height: 40%;
+}
+
+section p:hover{
+    color: white;
+    font-weight: bold;
+}
+
+.video{
+    margin: 5rem;
+    display: grid;
+    /* column-gap: 50px; */
+}
+
+#vid{
+    grid-column: 1;
+    width: 50vw;
+    height: 400px;
+}
+
+#vid-text{
+    grid-column: 2;
+    border-radius: 0.8rem;
+    background-image: radial-gradient(#bbf7d0, #78350f);
+    text-align: center;
+    padding: 2rem;
+    box-shadow: 7px 7px 10px rgb(77, 71, 71);
+    margin: 0;
+}
+
+#vid-text-span{
+    font-family: 'Dancing Script', cursive;  
+    letter-spacing: 0;
+    margin: 0.5rem;  
+}
+
+.quote img{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.footer{
+    background-color: #312e81;
+    opacity: 0.9;
+    margin: 0;
+    padding: 0.5rem;
+    color: yellow;
+    text-align: center;
+}
